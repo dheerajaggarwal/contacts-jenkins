@@ -1,0 +1,4 @@
+#!/bin/sh
+
+npm install vrunner 
+./node_modules/.bin/vrunner --email=$vrestEmail --password=$vrestPassword --url="http://vrest.io/i/demo/g/testcase?projectId=549550cb68e831540bd849b1&versionIds%5B%5D=54d86e3a4908a5a106e6243e" --logger=xunit
