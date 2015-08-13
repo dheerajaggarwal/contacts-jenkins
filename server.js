@@ -33,7 +33,7 @@ var requiresLogin = function(req, res, next) {
     /*var redirectURL = '/signin';
     if (!req.isAuthenticated()) {
     	return res.redirect(redirectURL);
-    } else next();*/
+    } else next(); */
 };
 
 app.post('/contacts/rePopulateDB', requiresLogin, contact.rePopulateDB);
