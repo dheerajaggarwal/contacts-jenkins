@@ -43,7 +43,7 @@ app.post('/contacts', requiresLogin, contact.addcontact);
 app.put('/contacts/:id', requiresLogin, contact.updatecontact);
 app.delete('/contacts/:id', requiresLogin, contact.deletecontact);
 
-app.get('/', home.index );
+app.get('/', home.index);
 
 http.createServer(app).listen(app.get('port'), function () {
     console.log("Express server listening on port " + app.get('port'));
