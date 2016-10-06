@@ -13,7 +13,7 @@ if(baseURL.indexOf('prod') !== -1){
 }
 
 app.locals = {
-    baseURL: process.env.baseURL || '/',
+    baseURL: process.env.baseURL ||  '/',
     instanceType: instanceType
 };
 
