@@ -5,7 +5,7 @@ var express = require('express'),
     home = require('./routes/home');
 
 var app = express(),
-    baseURL = process.env.baseURL || '/',
+    baseURL = process.env.baseURL || '/', 
     instanceType = 'Test';
 
 if(baseURL.indexOf('prod') !== -1){
